@@ -15,7 +15,7 @@ IMAGE_HEIGHT, IMAGE_WIDTH = 128, 128
 # Load the model from the models/ folder
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("models/model.keras")
+    model = tf.keras.models.load_model("model.keras")
     return model
 
 # Write the predict function
